@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ClassBasedComponent from './components/ClassBasedComponent';
+import FunctionalBasedComponent from './components/FunctionalBasedComponent';
 
 function App() {
   return (
     <div className="App">
-      hello world!
+     <ClassBasedComponent />
+     <FunctionalBasedComponent/>
     </div>
   );
 }
