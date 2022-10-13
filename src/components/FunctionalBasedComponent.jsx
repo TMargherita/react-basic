@@ -21,11 +21,11 @@ function FunctionalBasedComponent() {
       <Child />
       functional based component
       {/* to pass data from this component to Prop */}
-      <PropExample
+      {/* <PropExample
         parentComponentHandler={parentComponentHandler}
         flag={false}
         data="data as prop"
-      />
+      /> */}
       <PropExample
         getValueFromChildComponent={getValueFromChildComponent}
       />
